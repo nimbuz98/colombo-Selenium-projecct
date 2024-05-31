@@ -1,9 +1,8 @@
-package com.pragmatictestlabs;
+package com.pragmatictestlabs.Day01;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -38,9 +37,5 @@ public class HelloSelenium {
         //close the browser
         driver.quit();
 
-
-
-
     }
-
 }
